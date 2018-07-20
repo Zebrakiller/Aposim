@@ -2188,9 +2188,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4000014051384630}
   - component: {fileID: 95000014096456788}
+  - component: {fileID: 195739315805144614}
+  - component: {fileID: 114579415055431882}
+  - component: {fileID: 114414492693617326}
+  - component: {fileID: 65624668311102312}
   m_Layer: 0
   m_Name: Izzy
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4222,8 +4226,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000014202707908}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -30.76333, y: -120.89766, z: -9.615707}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4000014141893500}
@@ -4318,6 +4322,18 @@ Transform:
   m_Father: {fileID: 4000012031043360}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &65624668311102312
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014202707908}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.5, y: 1.5, z: 0.5}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!95 &95000014096456788
 Animator:
   serializedVersion: 3
@@ -4335,6 +4351,31 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114414492693617326
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014202707908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22bf38c00054deb459462d68b92d5c55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterData: {fileID: 11400000, guid: 51993cf2cae3a684bb11849a04f2cf26, type: 2}
+  skills: {fileID: 11400000, guid: 13db16be97a757b4e8156d18c7b2668f, type: 2}
+--- !u!114 &114579415055431882
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014202707908}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b997d622586a7f4182064a49780bea3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!137 &137000010020986392
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
@@ -4348,6 +4389,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: d023b251844ee9e4aa7769977eda1e72, type: 2}
   m_StaticBatchInfo:
@@ -4404,6 +4446,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 65192dcb2545f8c49a9501897900a599, type: 2}
   - {fileID: 2100000, guid: 4252fbaf7bedeac4cb6f475953709d26, type: 2}
@@ -4531,6 +4574,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 0f28e8bc3b711ec4bb1771a961817970, type: 2}
   - {fileID: 2100000, guid: 6c366d117f802cf40ae29390a078a9a8, type: 2}
@@ -4580,6 +4624,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 1ffb39be04e399d4bb6a1292fc862938, type: 2}
   m_StaticBatchInfo:
@@ -4629,6 +4674,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 45c590be0377780469de040a61b72c4c, type: 2}
   m_StaticBatchInfo:
@@ -4676,6 +4722,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: f39de706a7f25954caa9325a74adb762, type: 2}
   m_StaticBatchInfo:
@@ -4730,6 +4777,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 54c6b7fc2a460ed40bbf383246a5858c, type: 2}
   - {fileID: 2100000, guid: 411bccff1d3f8044c9e76b8bb759443a, type: 2}
@@ -4779,6 +4827,7 @@ SkinnedMeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 4294967295
   m_Materials:
   - {fileID: 2100000, guid: 9834591bf811ebd4e964a378e213e45e, type: 2}
   m_StaticBatchInfo:
@@ -4819,3 +4868,24 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.00018344074, y: -0.047459953, z: -0.00102292}
     m_Extent: {x: 0.18762189, y: 0.15539643, z: 0.13909794}
   m_DirtyAABB: 0
+--- !u!195 &195739315805144614
+NavMeshAgent:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014202707908}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.5
+  m_Speed: 10
+  m_Acceleration: 10
+  avoidancePriority: 50
+  m_AngularSpeed: 2500
+  m_StoppingDistance: 1
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 2
+  m_BaseOffset: 0
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
