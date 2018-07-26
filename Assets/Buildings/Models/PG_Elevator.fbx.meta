@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 1348c05bc7034d04498e02a34972f104
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: PG_Elevator_base
+    100004: PG_Elevator_frame
+    100006: PG_Elevator_buttons
+    100008: Plane
+    400000: //RootNode
+    400002: PG_Elevator_base
+    400004: PG_Elevator_frame
+    400006: PG_Elevator_buttons
+    400008: Plane
+    2100000: No Name
+    2100002: ElevatorDoor
+    2100004: elevator_wall
+    2100006: emissive
+    2100008: TrimMetal
+    2300000: //RootNode
+    2300002: PG_Elevator_base
+    2300004: PG_Elevator_frame
+    2300006: PG_Elevator_buttons
+    2300008: Plane
+    3300000: //RootNode
+    3300002: PG_Elevator_base
+    3300004: PG_Elevator_frame
+    3300006: PG_Elevator_buttons
+    3300008: Plane
+    4300000: PG_Elevator
+    4300002: PG_Elevator_frame
+    4300004: PG_Elevator_base
+    4300006: Plane
+    4300008: PG_Elevator_buttons
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: ElevatorDoor
+    second: {fileID: 2100000, guid: d2851d29a293b2f4b9794e63c247fcd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TrimMetal
+    second: {fileID: 2100000, guid: 3e92b3b4446fad34da7689cc28129ffd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: elevator_wall
+    second: {fileID: 2100000, guid: 3a8edb0e26fbb0643ac13d8c5bf42fe8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: emissive
+    second: {fileID: 2100000, guid: 18ed7798d48f184489fbfaf80db2ea23, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
